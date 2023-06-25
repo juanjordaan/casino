@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+    <changeSet id="V0_0_1" author="Juan Jordaan">
+        <sql>
+            <![CDATA[
+                insert into player (username, balance) values ('juan.jordaan', 123400.10);
+                insert into player (username, balance) values ('michael.scott', 123400.20);
+                insert into player (username, balance) values ('pam.support', 123400.30);
+            ]]>
+        </sql>
+    </changeSet>
+</databaseChangeLog>
