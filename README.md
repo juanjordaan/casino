@@ -1,3 +1,10 @@
+## Requirements
+* Maven
+* Java 11
+
+## Compile
+* mvn clean compile package
+
 ## Database Initialization
 ##### Tables and Example Users are created through liquibase at startup.
 The username/balance are :
